@@ -24,6 +24,17 @@ var createNewTaskElement = function(taskString){
 
 	//Each element needs modifying 
 
+	checkBox.type = "checkbox";
+	editInput.type = "text";
+
+	editButton.innerText = "Edit";
+	editButton.className = "edit";
+	deleteButton.innerText = "Delete";
+	deleteButton.className = "delete";
+
+	label.innerText = taskString;
+
+
 	//Each element needs appending
 	listItem.appendChild(checkBox);
 	listItem.appendChild(label);
@@ -40,9 +51,10 @@ var addTask = function() {
   console.log("Add task...");
   //When the button is pressed
   //Create a new list item with the text from #new-task:
-  var listItem = createNewTaskElement("some new Task");
+  var listItem = createNewTaskElement(taskInput.value);
   //append listItem to incompleteTasksHolder
   incompleteTasksHolder.appendChild(listItem);
+  bindTaskEvents(listItem, taskCompleted);
 
 
 }
