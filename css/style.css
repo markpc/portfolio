@@ -1,4 +1,12 @@
-/* Style */
+body, html {
+  min-height: 100%;
+  position: relative;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto; }
+
 header {
   background: #f9f9f9;
   width: 100%;
@@ -6,6 +14,7 @@ header {
   opacity: .92;
   position: fixed;
   z-index: 100;
+  display: block;
 }
 
 header .row {
@@ -13,9 +22,59 @@ header .row {
   max-width: 100%;
 }
 
-.wrapper {
-  max-width: 1280px;
-  margin: 0 auto; }
+nav {
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin: 11px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: right;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  height: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li:last-child {
+  margin-right: 10px;
+}
+
+nav a {
+  font-family: "Lato";
+  color: #7f8c8d;
+  text-decoration: none;
+  padding: 10px 10px;
+  text-align: right;
+  text-transform: uppercase;
+  transition: .5s ease-in-out;
+  font-size: .86em;
+  font-weight: 800;
+  letter-spacing: .1em;
+  opacity: .5;
+}
+
+nav a:hover {
+  opacity: 1;
+}
+
+.current {
+  opacity: .75;
+}
+
+.grow {
+  height: 100%;
+}
+
 
 h1 {
   font-family: "Helvetica", sans-serif;
