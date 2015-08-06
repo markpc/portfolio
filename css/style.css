@@ -5,12 +5,26 @@
 
 h1 {
   font-family: "Helvetica", sans-serif;
-  color: blue;
-  padding: 15px; }
+  font-size: 3em;
+  text-align: center;
+}
+
+#menu, #menu a {
+text-align: center;
+text-decoration: none;
+color: black;
+font-family: "Arial";
+font-size: 13px;
+}
+
+#menu a{
+  margin-right: 25px;
+}
 
 li {
   display: inline-block;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 #overlay {
   background: rgba(0, 0, 0, 0.8);
@@ -23,7 +37,9 @@ li {
   text-align: center; }
 
 #overlay img {
-  margin-top: 10%; }
+  margin-top: 10%; 
+  margin-bottom: 10%;
+}
 
 #overlay p {
   color: black; }
