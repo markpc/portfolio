@@ -1,59 +1,276 @@
-/* Style */
-.wrapper {
-  max-width: 1000px;
-  margin: 0 auto; }
+@import url(http://fonts.googleapis.com/css?family=Changa+One);
+
+img, video, object {
+  width: 100%;
+}
+
+body, html {
+  min-height: 100%;
+  position: relative;
+}
+
+/* Borrowed from MatHelme */
+
+body{
+  font-family: 'Source Sans Pro' Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+  line-height: 1.500em;
+  color: #444;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+section {
+  padding: 80px 0 0;
+}
+
+/**************************Header*/
+header {
+  background: #f9f9f9;
+  width: 100%;
+  padding: 10px 0 12px;
+  opacity: .92;
+  position: fixed;
+  z-index: 100;
+}
+
+
+header .row {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+
+.logo {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  z-index: 4;
+  position: relative;
+  transition: .5s ease-in-out;
+}
+
+
+/**************************Typography*/
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  margin: 0;
+}
 
 h1 {
-  font-family: "Helvetica", sans-serif;
-  font-size: 3em;
+ font-family: 'Changa One', Arial, serif; font-weight: 400;   
+ padding: 5px; 
+ color: #2ecc71;
+}
+
+
+h3, .introduction{
+  margin: 0 0 20px;
   text-align: center;
 }
+/* End  = Borrowed from MatHelme */
 
-#menu, #menu a {
-text-align: center;
-text-decoration: none;
-color: black;
-font-family: "Arial";
-font-size: 13px;
+
+.row {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+nav {
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin: 11px 0;
 }
 
-#menu a{
-  margin-right: 25px;
+nav ul {
+  list-style-type: none;
+  text-align: right;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li:last-child {
+  margin-right: 10px;
+}
+
+nav a {
+  padding: 10px 10px;
+  text-align: right;
+  text-transform: uppercase;
+  transition: .5s ease-in-out;
+  font-size: .86em;
+  font-weight: 800;
+  letter-spacing: .1em;
+  opacity: .5;
+  text-decoration: none;
+}
+
+nav a:hover {
+  opacity: 1;
+}
+}
+
+.current {
+  opacity: .75;
+}
+
+.grow {
+  height: 100%;
+}
+
+.grid-100, .grid-75, .grid-50, .grid-33{
+  float: left;
+  padding: 0 2%;
+  margin: 40px auto;
+}
+
+.grid-max {
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  padding: 0;
+}
+.grid-100 {
+  width: 96%;
+}
+.grid-75 {
+  width: 71%;
+}
+.grid-50 {
+  width: 46%;
+}
+.grid-33 {
+  width: 29%;
+}
+.grid-25 {
+  width: 21%;
+}
+.grid-20 {
+  width: 16%;
+}
+
+.grid-center {
+  float: none;
+}
+
+/**************************Work*/
+.work-img img {
+  float: left;
+}
+.work-block {
+  position: relative;
+  margin: 20px auto;
+}
+.work-block img, .work-block h3 {
+  transition: .35s ease-in-out;
+}
+.work-block h3 {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  opacity: 0;
+  width: 80%;
+  margin: 0 10%;
+  text-align: center;
+  font-size: 1.3em;
+  color: #000;
+}
+
+.work-block a {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+.work-block a:hover > img {
+  opacity: .1;
+}
+
+.work-block a:hover > h3 {
+  opacity: 1;
+  top: 43%;
 }
 
 li {
   display: inline-block;
-  text-decoration: none;
-}
-
-#overlay {
-  background: rgba(0, 0, 0, 0.8);
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: none;
-  text-align: center; }
-
-#overlay img {
-  margin-top: 10%; 
-  margin-bottom: 10%;
-}
-
-#overlay p {
-  color: black; }
-
-/** Add box-sizing instead! **/
-#imageGallery img {
-  padding: 15px; }
+  text-decoration: none; }
 
 /** Media queries **/
-@media (min-width: 320px) and (max-width: 568px) {
-  #menu ul {
-    display: none; } }
-@media (min-width: 568px) {
-  #menu select, #menu button {
-    display: none; } }
+/**************************Media Quieries*/
+@media (max-width: 1040px) {
+  .grid-75 {
+    width: 96%;
+  }
+  .grid-50 {
+    width: 46%;
+  }
+  .grid-33 {
+    width: 46%;
+  }
+  .grid-25 {
+    width: 29%;
+  }
+  .grid-20 {
+    width: 21%;
+  }
+  .single {
+    text-align: left;
+  }
+  .grid-100 > h6  {
+    margin : 20px auto;
+  }
+}
+@media (max-width: 728px) {
+  .back-arrow {
+    display: none;
+  }
+  nav a {
+    letter-spacing: 0em;
+  }
+  
+  .work-block h3 {
+    margin: 20px auto 20px;
+    position: relative;
+    opacity: 1;
+  }
+  nav ul {
+    text-align: center;
+  }
+
+  .logo {
+    float: left;
+    margin-left: 10px;
+  }
+  .grid-100 {
+    margin: 20px auto;
+  }
+  .grid-50 {
+    width: 96%;
+    margin: 20px auto;
+  }
+  .grid-33 {
+    width: 96%;
+    margin: 20px auto;
+  }
+  .grid-25 {
+    width: 46%;
+    margin: 20px auto;
+  }
+  .grid-20 {
+    width: 46%;
+    margin: 20px auto;
+  }
+  .single {
+    text-align: left;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

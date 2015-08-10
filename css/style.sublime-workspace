@@ -1,0 +1,425 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inc",
+				"incorrectImg〔variable〕"
+			],
+			[
+				"co",
+				"correctImg"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"l",
+				"living_energy"
+			],
+			[
+				"jobz",
+				"jobzonen2"
+			],
+			[
+				"top",
+				"topNumber〔variable〕"
+			],
+			[
+				"pars",
+				"parseInt〔function〕"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"task",
+				"taskInput〔variable〕"
+			],
+			[
+				"edit",
+				"editMode"
+			],
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"edi",
+				"editInput〔variable〕"
+			],
+			[
+				"conta",
+				"containsClass〔variable〕"
+			],
+			[
+				"ed",
+				"editMode"
+			],
+			[
+				"dele",
+				"delete"
+			],
+			[
+				"inn",
+				"innerText"
+			],
+			[
+				"del",
+				"deleteButton〔variable〕"
+			],
+			[
+				"label",
+				"label"
+			],
+			[
+				"chec",
+				"checkbox"
+			],
+			[
+				"com",
+				"completedTasksHolder〔variable〕"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"list",
+				"listItem〔variable〕"
+			],
+			[
+				"type",
+				"type=checkbox"
+			],
+			[
+				"ch",
+				"checkbox"
+			],
+			[
+				"cre",
+				"createElement〔function〕"
+			],
+			[
+				"che",
+				"checkBox〔variable〕"
+			],
+			[
+				"lis",
+				"listItem"
+			],
+			[
+				"check",
+				"checkBoxEventHandler"
+			],
+			[
+				"tas",
+				"taskListItem"
+			],
+			[
+				"incl",
+				"incompleteTasksholder〔variable〕"
+			],
+			[
+				"bind",
+				"bindTaskEvents"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"cap",
+				"captionText"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"im",
+				"imageLocation"
+			],
+			[
+				"rg",
+				"rgba()"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 382.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 489.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mark/Projects/js/guess.html",
+		"/Users/mark/Projects/js/randomnumber.js",
+		"/Users/mark/Projects/js/index.html",
+		"/Users/mark/Projects/js/style.css",
+		"/Users/mark/Projects/portfolio/css/style.css",
+		"/Users/mark/Projects/portfolio/index.html",
+		"/Users/mark/Projects/portfolio/app.js",
+		"/Users/mark/Projects/js/random.js",
+		"/Users/mark/Projects/js/quiz",
+		"/Users/mark/Projects/js/daysalive",
+		"/Users/mark/Projects/old portfoli/index.html",
+		"/Users/mark/Documents/compute",
+		"/Users/mark/Documents/lejlighed2",
+		"/Users/mark/Documents/pas",
+		"/Users/mark/Desktop/filename.html",
+		"/Users/mark/Projects/portfolio/temp/style.css",
+		"/Users/mark/Projects/portfolio/temp/index.html",
+		"/Users/mark/Projects/EtsyDemo/config/dropbox.yml",
+		"/Users/mark/Projects/EtsyDemo/app/controllers/listings_controller.rb",
+		"/Users/mark/Projects/EtsyDemo/app/views/layouts/_footer.html.erb",
+		"/Users/mark/Projects/EtsyDemo/app/views/layouts/_header.html.erb",
+		"/Users/mark/Projects/portfolio/todo-js/js/app.js",
+		"/Users/mark/Projects/EtsyDemo/app/views/layouts/application.html.erb",
+		"/Users/mark/Projects/portfolio/todo-js/index.html",
+		"/Users/mark/Projects/portfolio/todo-js/ToDo/package.json",
+		"/Users/mark/Projects/portfolio/scss/style.scss",
+		"/Users/mark/Projects/portfolio/March15/style.css",
+		"/Users/mark/Projects/portfolio/March15/about.html",
+		"/Users/mark/Projects/portfolio/March15/contact.html",
+		"/Users/mark/Projects/portfolio/March15/app.js",
+		"/Users/mark/Projects/portfolio/March15/index.html",
+		"/Users/mark/Projects/portfolio/2015/style.css",
+		"/Users/mark/Projects/portfolio/2015/app.js",
+		"/Users/mark/Projects/portfolio/2015/index.html",
+		"/Users/mark/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mark/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "style.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

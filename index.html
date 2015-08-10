@@ -2,47 +2,109 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	</head>
 	<body>
-		<div class="wrapper">
 		<header>
-			<h1>Mark Powell</h1>
-			<div id="menu">
-				<ul>
-					<li class ="selected"><a href="index.html">Projects</a></li>
-					<li><a href="about.html">About</a></li> 		<!-- Remember to change URL! -->
-					<li><a href="contact.html">Contact</a></li> 	<!-- Remember to change URL! -->
-				</ul>
+			<div class="row">
+				<h1 class="logo">M</h1>
+				<nav id="menu">
+					<ul>
+						<li class ="selected"><a href="index.html">Projects</a></li>
+						<li><a href="about.html">About</a></li> 		<!-- Remember to change URL! -->
+						<li><a href="contact.html">Contact</a></li> 	<!-- Remember to change URL! -->
+					</ul>
+				</nav>
 			</div>
 		</header>	
-			<section>
-				<ul id="imageGallery">
-					<li>
-					<a href="img/biodeal_v2_index.jpg"><img src="img/biodeal_v2_index.jpg" alt="Living Energy" width="200px"></a>
-					</li>
-					<li><a href="img/Biodeal_v2_signup.jpg"><img src="img/Biodeal_v2_signup.jpg" alt="Living Energy" width="200px"></a></li>
 
-					<li><a href="img/dopemine1.png"><img src="img/dopemine1.png" alt="Living Energy" width="200px"></a></li>
+	<section>
+			<div class="row text-left">
+				<div class="grid-100">
+					<h3>Hi, I'm Mark Powell.</h3>
+					<p class="introduction"> I'm a Web Designer based in Melbourne, Australia.</p>
+				</div>
+			</div>
 
-					<li><a href="img/dopemine2.png"><img src="img/dopemine2.png" alt="Living Energy" width="200px"></a></li>
+			<div class="row" id="gallery">	
+					<div class="grid-33 work-block">
+						<a href="img/140tegn_1.png">
+							<img src="img/140tegn_1.png" alt="Living Energy">
+							<h3>Caption text</h3>
+						</a>
+					</div>
 
-					<li><a href="img/dopemine3.png"><img src="img/dopemine3.png" alt="Living Energy" width="200px"></a></li>
+					<div class="grid-33 work-block">
+						<a href="img/dopemine1.png">
+							<img src="img/dopemine1.png" alt="Living Energy">
+							<h3>Caption text</h3>
+						</a>
+					</div>
 
-					<li><a href="img/jobzonen1.png"><img src="img/jobzonen1.png" alt="Living Energy" width="200px"></a></li>
+					<!--
+					<div class="grid-33 work-block">
+						<a href="img/dopemine2.png">
+							<img src="img/dopemine2.png" alt="Living Energy">
+							<h3>Caption text</h3>
+						</a>
+					</div>
+					-->
 
-					<li><a href="img/jobzonen2.jpg"><img src="img/jobzonen2.jpg" alt="Living Energy" width="200px"></a></li>
+					<div class="grid-33 work-block">
+						<a href="img/dopemine3.png">
+							<img src="img/dopemine3.png" alt="Living Energy">
+							<h3>Caption text</h3>
+						</a>
+					</div>
 
-					<li><a href="img/kommunikation.png"><img src="img/kommunikation.png" alt="Living Energy" width="200px"></a></li>
+					<div class="grid-33 work-block">
+						<a href="img/biodeal_v2_index.jpg">
+							<img src="img/biodeal_v2_index.jpg" alt="Living Energy">
+							<h3>Caption text</h3>
+						</a>
+					</div>
 
-					<li><a href="img/kommunikation2.jpg"><img src="img/kommunikation2.jpg" alt="Living Energy" width="200px"></a></li>
+					<div class="grid-33 work-block">
+						<a href="img/Biodeal_v2_signup.jpg">
+							<img src="img/Biodeal_v2_signup.jpg" alt="Living Energy">
+							<h3>Caption text</h3>
+						</a>
+					</div>
 
-					<li><a href="img/Take_one.png"><img src="img/Take_one.png" alt="Living Energy" width="300px"></a></li>			
-				</ul>
-			</section>
-		</div>
+					<div class="grid-33 work-block">
+						<a href="img/kommunikation.png">
+							<img src="img/kommunikation.png" alt="Living Energy">
+							<h3>Caption text</h3>
+						</a>
+					</div>
+
+					<div class="grid-33 work-block">
+						<a href="img/kommunikation2.jpg">
+							<img src="img/kommunikation2.jpg" alt="Living Energy">
+							<h3>Caption text</h3>
+						</a>
+					</div>
+
+					<div class="grid-33 work-block">
+						<a href="img/jobzonen1.png">
+							<img src="img/jobzonen1.png" alt="Living Energy">
+							<h3>Caption text</h3>
+						</a>
+					</div>
+
+					<div class="grid-33 work-block">
+						<a href="img/jobzonen2.jpg">
+							<img src="img/jobzonen2.jpg" alt="Living Energy">
+							<h3>Caption text</h3>
+						</a>
+					</div>
+				
+			</div>
+	</section>
+		
 		<!-- link jQuery from common CDN to save the user from downloading jQuery again --> 
 		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-		<script src="app.js" type="text/javascript" charset="utf-8" ></script>
+
 	</body>
 </html>
