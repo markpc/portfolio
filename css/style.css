@@ -10,8 +10,6 @@ body, html {
   background-color: #f9f9f9;
 }
 
-/* Borrowed from MatHelme */
-
 body{
   font-family: 'Source Sans Pro' Helvetica, Arial, sans-serif;
   font-size: 1.125em;
@@ -201,8 +199,19 @@ li {
   display: inline-block;
   text-decoration: none; }
 
-/** Media queries **/
-/**************************Media Quieries*/
+/******************************************
+              Social Media links
+******************************************/
+.connect a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro' Helvetica, Arial, sans-serif;    
+  color: #BDC3C7;
+}
+
+
+/******************************************
+              Media Quieries
+******************************************/
 @media (max-width: 1040px) {
   .grid-75 {
     width: 96%;
